@@ -50,17 +50,12 @@
                            <input type="text">
                            <i (click)="FunctionShowOptions('myDropdown1')" class="glyphicon glyphicon-triangle-bottom" > </i>
                               <div id="myDropdown1" class="dropdown-content1">
-                                 <a (click)="createContact()">Create and Edit..</a>
+                                 <a>Create and Edit..</a>
                               </div> 
                   
                         </div>
-
-                       
-                      </td>
-                      <td>
-                           <button type="button" id="externalbtn" class="btn" (click)="OpenCreateContact()">
-                                 <span class="glyphicon glyphicon-share"></span> 
-                           </button> 
+                        <i (click)="OpenCreateContact()"
+                        class="glyphicon glyphicon-share"></i> 
                       </td> 
                       <!--End first cellule-->
                        <!--Second cellule-->
@@ -89,10 +84,8 @@
                                  <option value="Receipts Houda:YourCompany-Receipts">Receipts Houda: Your Company</option>
                               </select>
                            </div>
+                           
                          </td>
-                         <td>
-            
-                         </td> 
                           <!--End first cellule-->
                            <!--Second cellule-->
                            <td class="label-tab">
